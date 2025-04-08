@@ -39,6 +39,7 @@ export default function Home() {
                     keyExtractor={(item:any) => item.id}
                     renderItem={({item}) => (
                         <MovieCards
+                            id={item.id}
                             movieImageURL={item.moviesURL}
                             name={item.name}
                         />
@@ -54,6 +55,7 @@ export default function Home() {
                     keyExtractor={(item:any) => item.id}
                     renderItem={({item}) => (
                         <MovieCards
+                            id={item.id}
                             movieImageURL={item.moviesURL}
                             name={item.name}
                         />
@@ -69,6 +71,7 @@ export default function Home() {
                     keyExtractor={(item:any) => item.id}
                     renderItem={({item}) => (
                         <MovieCards
+                            id={item.id}
                             movieImageURL={item.moviesURL}
                             name={item.name}
                         />
